@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-ENV NEXT_PUBLIC_API_URL=http://localhost:5000/api
+ENV NEXT_PUBLIC_API_URL=https://studyquest-ai.onrender.com/api
 
 RUN npm run build
 
